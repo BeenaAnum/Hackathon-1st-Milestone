@@ -1,0 +1,100 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; 
+    height: auto;
+    background-color:black;
+}
+
+.container{
+    background-color: rgb(230, 175, 222);
+    display: flex;
+    
+    width: 800px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: solid  palevioletred;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+    margin:20px 250px; 
+}
+#header{
+    background-color: palevioletred;
+    margin-top: 10px;
+    width: 800px;
+}
+
+img{
+    width: 100px ;
+    justify-items:center;
+    border-radius: 50% ;
+    border: solid palevioletred;;
+}
+
+h2{
+    background-color: palevioletred;
+    margin-top: 20px;
+    width: 800px
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px ;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: rgb(255, 83, 140);
+    color: black;
+    font-weight: bold;
+}
+  
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    margin: 5px 0;
+}
+  /* Base styling for larger screens */
+.container {
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: 600px;
+    }
+    
+    img {
+        width: 80px; /* Slightly smaller image */
+    }
+}
+
+/* Small screens (mobile phones) */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        max-width: 100%;
+    }
+    
+    img {
+        width: 70px; /* Smaller image for mobile */
+    }
+    
+    button {
+        padding: 8px; /* Slightly smaller padding */
+    }
+}
+
