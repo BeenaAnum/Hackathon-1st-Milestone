@@ -78,10 +78,7 @@ li {
         width: 90%;
         max-width: 600px;
     }
-    
-    img {
-        width: 80px; /* Slightly smaller image */
-    }
+
 }
 
 /* Small screens (mobile phones) */
@@ -89,10 +86,6 @@ li {
     .container {
         width: 95%;
         max-width: 100px;
-    }
-    
-    img {
-        width: 70px; /* Smaller image for mobile */
     }
     
     button {
